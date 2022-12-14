@@ -1,0 +1,76 @@
+.container{
+    background-color: #FFDD66;
+    padding: 1px;
+}
+.row{
+    text-align: center;
+}
+
+#banner{
+    
+    width: 27%;
+    height: auto;
+}
+#fotoPerfil{
+    
+    width: 20%;
+    height: auto;
+}
+#boton{
+    text-align: center;
+}
+
+@media(max-width: 575px){
+
+    .container{
+        position: relative;
+    }
+    .row{display:inline}
+    #banner{
+    
+        width: 70%;
+        height: auto;
+    }
+    #fotoPerfil{
+    
+        width: 70%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+button {
+    background: #FBCA1F;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    -webkit-box-shadow: 0.1em 0.1em;
+            box-shadow: 0.1em 0.1em;
+   }
+   
+   button:hover {
+    -webkit-transform: translate(-0.05em, -0.05em);
+        -ms-transform: translate(-0.05em, -0.05em);
+            transform: translate(-0.05em, -0.05em);
+    -webkit-box-shadow: 0.15em 0.15em;
+            box-shadow: 0.15em 0.15em;
+   }
+   
+   button:active {
+    -webkit-transform: translate(0.05em, 0.05em);
+        -ms-transform: translate(0.05em, 0.05em);
+            transform: translate(0.05em, 0.05em);
+    -webkit-box-shadow: 0.05em 0.05em;
+            box-shadow: 0.05em 0.05em;
+   }
